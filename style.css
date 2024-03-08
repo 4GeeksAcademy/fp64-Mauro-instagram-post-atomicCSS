@@ -1,0 +1,41 @@
+.between{
+    justify-content: space-between;
+}
+.row{
+    flex-direction: row;
+}
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.post{
+    width: 500px;
+    height: 600px;
+}
+.post-header{   
+    width: 500px;
+    height: 50px;
+
+}
+.text{
+    justify-content: start !important;
+    width: 100%;
+}
+svg{
+    height: 30px !important;
+    width: 50px;
+}
+.post-body{
+    width: 500px;
+    height: 50px;
+}
+.post-img{
+    width: 500px;
+    height: 400px;
+    overflow: hidden;
+}
+img{
+    object-fit: contain;
+}
