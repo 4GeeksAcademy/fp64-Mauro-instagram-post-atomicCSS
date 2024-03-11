@@ -1,40 +1,48 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instagram Post</title>
     <link rel="stylesheet" href="style.css">
-    <title>instagram post</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
+
 <body>
-    <div class="post flex column">
-        <div class="post-header flex between">
-            <i class="fa-brands fa-html5"></i>
-            <div class="text column flex">
-                <span>HTML5</span>
-                <span>Rigoberto</span>
+    <div class="post d-flex justify-content-center row" style="width: 500px; height: 600px;">
+        <div class="post-header d-flex justify-content-between mb-3" style="height: 50px;">
+            <div class="p-2"><i class="fa-brands fa-html5"></i></div>
+            <div class="p-2">
+                <span>HTML5 <br> Rigoberto</span>
             </div>
-            <i class="fa-solid fa-ellipsis-vertical"></i>
+            <div class="ms-auto p-2"><i class="fa-solid fa-ellipsis-vertical"></i></div>
         </div>
-        <div class="post-img flex">
-            <img src="https://img.freepik.com/foto-gratis/perrito-joven-posando-alegre_155003-28765.jpg" alt="">
+
+        <div class="post-img">
+            <img src="https://picsum.photos/id/237/480/350" alt="">
         </div>
-        <div class="post-body flex column">
-            <div class="icons flex row between">
-                <div class="incons1">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-regular fa-comment"></i>
-                    <i class="fa-regular fa-paper-plane"></i>
-                </div>
-                <div class="icons2">
-                    <i class="fa-regular fa-bookmark"></i>
+        <div class="post-body">
+            <div class="icons">
+                <div class="d-flex mb-3">
+                    <div class="p-2"><i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-comment"></i>
+                        <i class="fa-regular fa-paper-plane"></i>
+                    </div>
+                    <div class="ms-auto p-2"><i class="fa-regular fa-bookmark"></i></div>
                 </div>
             </div>
-            <p>Liked by <strong>4GeeksAcademy</strong>, <strong>htnl5</strong>, <strong>web</strong> and <strong>100.000 others</strong></p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum at odit commodi deserunt. Tempore corporis autem aliquid veritatis nihil dicta ad eveniet vero ut adipisci?</p>
+            <p>Liked by <strong>4GeeksAcademy</strong>, <strong>htnl5</strong>, <strong>web</strong> and <strong>100.000
+                    others</strong></p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum at odit commodi deserunt. Tempore
+                corporis autem aliquid veritatis nihil dicta ad eveniet vero ut adipisci?</p>
         </div>
     </div>
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
